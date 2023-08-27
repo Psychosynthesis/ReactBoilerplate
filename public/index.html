@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React Boilerplate</title>
+  <style>
+  :root {
+    font-family: Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+  	color-scheme: light dark;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+  }
+
+  /* Вариант центровки содержимого */
+  body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+  }
+
+  h1, h2 {
+    text-shadow: 0 0 4px white, 3px 3px 1px black;
+    line-height: 1.2em;
+  }
+
+  p {
+    color: white;
+    margin: 1em 0;
+    z-index: 1;
+    position: relative;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root { color: black; background-color: #f0f0f0; }
+    html, body { color: black; }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root { color: white; background-color: #101010; }
+    html, body { color: white; }
+  }
+  </style>
+</head>
+<body>
+  <div id="root">
+  </div>
+</body>
+</html>

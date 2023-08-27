@@ -1,9 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
-// Try the environment variable, otherwise use root
-const ASSET_PATH = process.env.ASSET_PATH || '/public';
-
 module.exports = {
   entry: './src/index.js', // Note that without this option webpack just try find entry in ./src/
   output: {
