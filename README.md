@@ -1,4 +1,4 @@
-# ReactBoilerplate
+# Simple React Boilerplate without CRA
   A super-tiny template for quickly creating React applications with Webpack.
 
   For demonstration, added a simple (one standalone script) page with a small and fast

@@ -6,3 +6,5 @@
 /.remote-sync.json
 
 .editorconfig
+
+package-lock.json
